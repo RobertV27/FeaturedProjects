@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Ultimate Tic-Tac-Toe"
+            android:textColor="#000000"
+            android:textSize="36sp"
+            android:translationY="20dip" />
+
+        <Button
+            android:id="@+id/newGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:minHeight="70dip"
+            android:text="New Game"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:translationY="400dip" />
+
+        <Button
+            android:id="@+id/rulesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:minHeight="50dip"
+            android:text="Rules"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:translationY="420dip" />
+
+        <ImageView
+            android:id="@+id/titleImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationY="-90dip"
+            app:srcCompat="@drawable/title" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
